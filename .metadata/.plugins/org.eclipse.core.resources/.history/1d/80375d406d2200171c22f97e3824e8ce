@@ -1,0 +1,18 @@
+package string;
+
+class TranslateKorean{
+	public static void Translate(int number){
+		int korean;
+		switch(korean){
+		
+		}
+	}
+}
+public class NumToKorean {
+
+	public static void main(String[] args) {
+		TranslateKorean.Translate(1234567);
+
+	}
+
+}

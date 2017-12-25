@@ -1,0 +1,9 @@
+package InetAddress;
+
+public class TCPClientExam {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

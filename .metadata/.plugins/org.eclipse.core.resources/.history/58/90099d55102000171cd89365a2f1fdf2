@@ -1,0 +1,10 @@
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+			  String string1 = "abcdefg";
+			  String string2 = "abcdefghi";
+			  System.out.println(string1.compareTo(string2));
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		String recode = "a-b";
+        String[] values = recode.split("-", 20);
+           System.out.print("length ::"+values.length + "\n");
+                         
+          for(int i=0 ; i<values.length ; i++) {
+           System.out.print("values["+i+"]::["+values[i]+"]\n");
+          }
+
+	}
+
+}

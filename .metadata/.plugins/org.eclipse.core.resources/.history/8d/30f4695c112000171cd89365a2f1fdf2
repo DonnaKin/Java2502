@@ -1,0 +1,13 @@
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		String str = "How are you.";
+		  char [ ] arr = new char [7];
+		  str.getChars(2, 9, arr, 0);
+		  System.out.print("arr[ ] : ");
+		  System.out.println(arr);
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;V_18.java&apos; to &apos;database/src/database&apos;&#x0D;&#x0A;- Original project: &apos;GUI&apos;&#x0D;&#x0A;- Destination element: &apos;database/src/database&apos;&#x0D;&#x0A;- Original element: &apos;exercise.V_18.java&apos;" description="Copy compilation unit" destination="=database/src&lt;database" element1="/src&lt;exercise{V_18.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1513301590716" units="1" version="1.0"/>
+</session>

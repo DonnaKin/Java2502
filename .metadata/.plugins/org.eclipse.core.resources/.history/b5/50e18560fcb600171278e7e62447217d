@@ -1,0 +1,42 @@
+package layout;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+
+public class V_13 extends JFrame{
+	public V_13(){
+		super("친구정보");
+		Container con = getContentPane();
+		con.setLayout(new FlowLayout());
+		JLabel name = new JLabel("이 름");
+		con.add(name);
+		con.add(new JTextField(16));
+		JButton search = new JButton("검색");
+		con.add(search);
+		
+		JScrollPane js = new JScrollPane();
+		con.add(js);
+		
+		con.setLayout(new FlowLayout());
+		
+		JButton save = new JButton("저장");
+		con.add(save);
+		JButton delete = new JButton("삭제");
+		con.add(delete);
+		JButton replace = new JButton("수정");
+		con.add(replace);
+		setSize(500,300);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new V_13();
+	}
+}

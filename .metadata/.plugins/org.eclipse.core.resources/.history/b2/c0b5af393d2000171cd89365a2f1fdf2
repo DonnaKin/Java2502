@@ -1,0 +1,13 @@
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		String string1 = "abCdefgH";
+		String string2 = "abcdefghij";
+		System.out.println(string1.compareToIgnoreCase(string2));
+
+
+		          
+	}
+
+}

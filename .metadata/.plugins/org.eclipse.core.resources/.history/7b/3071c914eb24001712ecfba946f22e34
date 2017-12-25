@@ -1,0 +1,31 @@
+package stringBuffer;
+
+class DelChar{
+	public static String Delete(String str1, String str2){
+		String [] array = null;//str1에 있는 문자들을 넣을 공간
+		String [] array2 = null;//str2에 있는 문자들을 넣을 공간
+		String result = null; //숫자만 넣을 결과 공간
+		str1.toCharArray();
+		str2.toCharArray();
+		int i,j;
+		for(i = 0; i<array.length;i++){
+			
+			for(j =0;j<array2.length;j++){
+				
+				if(array[i]==array2[j]){
+					
+				}
+			}
+		}
+			//result = String.valueOf(array[i]);
+		
+		return result;
+	}
+}
+public class DelCharTest {
+	public static void main(String[] args) {
+		System.out.println(DelChar.Delete("1%@@5", "%@"));
+
+	}
+
+}

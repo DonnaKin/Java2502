@@ -1,0 +1,25 @@
+package stringBuffer;
+
+class DelChar{
+	public static String Delete(String str1, String str2){
+//		String del = String.valueOf(str1);
+//		String compare = String.valueOf(str2);
+		char [] array = str1.toCharArray();
+		char [] array2 = str2.toCharArray();
+		char [] result = new char [str1.length()-str2.length()];
+		for(int i = 0;i<str1.length();i++){
+			for(int j = 0; j<str2.length();j++){
+				
+			}
+		}
+			
+		return str2;
+	}
+}
+public class DelCharTest {
+	public static void main(String[] args) {
+		System.out.println(DelChar.Delete("1%@@5", "%@"));
+
+	}
+
+}

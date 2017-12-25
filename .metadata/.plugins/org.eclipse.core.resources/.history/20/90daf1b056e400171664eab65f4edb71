@@ -1,0 +1,45 @@
+package InetAddress;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
+public class UDPClientExam {
+
+	public static void main(String[] args) {
+		System.out.println("보낼 메시지 : ");
+		
+		try {
+			DatagramPacket dp;
+			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+			String msg = null;
+			try {
+				msg = in.readLine();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			dp = new DatagramPacket(msg.getBytes(),msg.getBytes().length,InetAddress.getByName("10.96.123.163"),
+					3000);
+			DatagramSocket ds;
+			try {
+				ds = new DatagramSocket();
+			} catch (SocketException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			ds.send(dp);
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

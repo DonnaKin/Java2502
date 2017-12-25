@@ -1,0 +1,29 @@
+package string;
+
+class TranslateKorean{
+	public static void Translate(int number){
+		int korean = 0;
+		String unit[] = {"½Ê","¹é","Ãµ","¸¸","½Ê¸¸","¹é¸¸"};
+		switch (korean){
+		case 0 : System.out.println("¿µ");break;
+		case 1: System.out.println("ÀÏ"); break;
+		case 2: System.out.println("ÀÌ"); break;
+		case 3: System.out.println("»ï"); break;
+		case 4: System.out.println("»ç"); break;
+		case 5: System.out.println("¿À"); break;
+		case 6: System.out.println("À°"); break;
+		case 7: System.out.println("Ä¥"); break;
+		case 8: System.out.println("ÆÈ"); break;
+		case 9: System.out.println("±¸"); break;
+		}
+		
+	}
+}
+public class NumToKorean {
+
+	public static void main(String[] args) {
+		TranslateKorean.Translate(1234567);
+
+	}
+
+}

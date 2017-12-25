@@ -1,0 +1,16 @@
+package booleanmethods;
+
+public class BooleanTest {
+
+	public static void main(String[] args) {
+//		boolean b1 = true;
+//		boolean b2 = false;
+//		boolean b3 = true;
+//		boolean b4 = false;
+		System.out.println(Boolean.logicalXor(true,false));
+		System.out.println(Boolean.logicalXpr(true,true));
+		System.out.println(Boolean.logicalXor(false,true));
+		System.out.println(Boolean.logicalXor(false,false));
+	}
+
+}

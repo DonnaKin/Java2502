@@ -1,0 +1,11 @@
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		String s1 = "pen pineapple apple pen";
+		System.out.println(s1.indexOf('p',2));
+
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package InetAddress;
+
+import java.net.InetAddress;
+
+public class InetAddressExam {
+
+	public static void main(String[] args) {
+		InetAddress ia = InetAddress.getLocalHost();
+		System.out.println("IP¡÷º“ : "+ia.getHostAddress());
+	}
+
+}

@@ -1,0 +1,19 @@
+package stringBuffer;
+
+class DelChar{
+	public static String Delete(String str1, String str2){
+		String del = String.valueOf(str1);
+		String compare = String.valueOf(str2);
+				if(str1.compareTo(compare)){
+					
+				}
+		return str2;
+	}
+}
+public class DelCharTest {
+	public static void main(String[] args) {
+		System.out.println(DelChar.Delete("1%@56", "%@"));
+
+	}
+
+}

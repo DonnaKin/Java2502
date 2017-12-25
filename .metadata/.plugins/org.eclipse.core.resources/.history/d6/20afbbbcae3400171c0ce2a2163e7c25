@@ -1,0 +1,14 @@
+package booleanmethods;
+
+public class BooleanTest {
+
+	public static void main(String[] args) {
+		boolean b1 = new Boolean(true);
+		boolean b2 = new Boolean(false);
+		boolean b3 = new Boolean(true);
+		boolean b4 = new Boolean(false);
+		System.out.println(logicalAnd(b1,b2));
+
+	}
+
+}
